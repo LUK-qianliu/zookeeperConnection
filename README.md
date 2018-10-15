@@ -1,0 +1,3 @@
+# zookeeperConnection
+test for git
+一旦不加锁等待连接完成，会因为连接zookeeper需要10s，而程序执行需要5s，故程序执行到向zookeeper节点写数据时，zookeeper还没有连接上，因此程序而报错
