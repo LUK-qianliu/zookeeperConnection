@@ -56,6 +56,7 @@ public class sampleZkClient {
         String nodeCreated = zkClient.create("/eclipse4", "hellozk4".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         //上传的数据可以是任何类型，但都要转成byte[]
         System.err.println(nodeCreated);
+
     }
 
     // 获取子节点
