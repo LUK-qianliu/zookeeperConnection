@@ -1,6 +1,7 @@
 package com.qianliu.bigdata.zookeeper;
 
 import org.apache.zookeeper.*;
+import org.apache.zookeeper.data.Stat;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -40,7 +41,7 @@ public class sampleZkClient {
 
         // 进行阻塞
         connectedSemaphore.await();
-        System.out.println("..");
+        System.out.println("....");
     }
     /**
      * 数据的增删改查
@@ -53,9 +54,9 @@ public class sampleZkClient {
     @Test
     public void testCreate() throws KeeperException, InterruptedException {
         // 参数1：要创建的节点的路径 参数2：节点大数据 参数3：节点的权限 参数4：节点的类型
-        String nodeCreated = zkClient.create("/eclipse4", "hellozk4".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+        String nodeCreated = zkClient.create("/eclipse", "hellozk4".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         //上传的数据可以是任何类型，但都要转成byte[]
-        System.err.println(nodeCreated);
+        System.out.println("创建节点"+nodeCreated);
 
     }
 
@@ -66,10 +67,47 @@ public class sampleZkClient {
         for (String child : children) {
             System.out.println(child);
         }
-        Thread.sleep(Long.MAX_VALUE);
-        zkClient.close();
     }
 
+    //判断节点是否存在
+    @Test
+    public void testExists() throws Exception{
+        /*
+         * @return 将"/eclispe"节点的所有信息返回，并且封装在stat中
+        * */
+        Stat stat = zkClient.exists("/eclipse",false);//判断"/eclispe"节点是否存在
+        if(stat == null) {
+            System.out.println("/eclipse不存在！");
+        }else{
+            System.out.println("/eclipse节点长度：" + stat.getDataLength());
+        }
+    }
+
+    //获取某个节点的信息
+    @Test
+    public void getData() throws Exception{
+        //stat的参数为null表示不去描述这个"/eclipse"的节点
+        // （"/eclipse"节点的可能换过几次版本，此时是哪个版本，null不去描述就是获取最新版本的"/eclipse"节点）
+        byte[] bytes =zkClient.getData("/eclipse",false,null);
+        System.out.println("/eclipse节点中字符串："+new String(bytes));
+    }
+
+    //删除节点
+    @Test
+    public void deleteData() throws Exception{
+        //第二个参数：version = -1表示删除所有版本
+        zkClient.delete("/eclipse",-1);
+        System.out.println("/eclipse节点被删除！");
+    }
+
+    //设置某个节点的信息
+    @Test
+    public void setData() throws Exception{
+        zkClient.setData("/eclipse","i miss you".getBytes(),-1);
+        //System.out.println("/eclipse节点中字符串："+new String(bytes));
+    }
+
+    //结束以后必须关闭zookeeper连接
     @After
     public void closeZkConnection() throws Exception{
         zkClient.close();

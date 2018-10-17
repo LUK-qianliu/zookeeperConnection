@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a912d962-9896-4655-9fef-7da062d0adb9" name="Default Changelist" comment="add git">
+    <list default="true" id="a912d962-9896-4655-9fef-7da062d0adb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dynamicServer/dynamicClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dynamicServer/dynamicServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zookeeperTest/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zookeeperTest/com/qianliu/bigdata/zookeeper/sampleZkClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zookeeperTest/com/qianliu/bigdata/zookeeper/sampleZkClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/zookeeperTest/com/qianliu/bigdata/zookeeper/sampleZkClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/zookeeperTest/com/qianliu/bigdata/zookeeper/sampleZkClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qianliu/bigdata/zookeeper/sampleZkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qianliu/bigdata/zookeeper/sampleZkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeperConnection" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeperConnection" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,39 +26,43 @@
     <session id="-661601586">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.115" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="659" />
-          <entry key="txt" value="19" />
+          <entry key="java" value="1752" />
+          <entry key="properties" value="7" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="659" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="1752" />
+          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="Properties" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="6" />
-          <entry key="properties" value="1" />
+          <entry key="java" value="26" />
+          <entry key="properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="6" />
-          <entry key="Properties" value="1" />
+          <entry key="JAVA" value="26" />
+          <entry key="Properties" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -63,14 +73,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/qianliu/bigdata/zookeeper/sampleZkClient.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dynamicServer/dynamicServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="214">
+              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dynamicServer/dynamicClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2033#2041#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -94,6 +126,9 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/log4j.properties" />
         <option value="$PROJECT_DIR$/src/com/qianliu/bigdata/zookeeper/sampleZkClient.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/dynamicServer/dynamicServer.java" />
+        <option value="$PROJECT_DIR$/src/dynamicServer/dynamicClient.java" />
       </list>
     </option>
   </component>
@@ -104,10 +139,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="13" />
-    <option name="width" value="1906" />
-    <option name="height" value="958" />
+    <option name="y" value="8" />
+    <option name="width" value="1911" />
+    <option name="height" value="964" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,13 +168,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zookeeperTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zookeeperTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicServer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,9 +188,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539606707323" />
-    <property name="last_opened_file_path" value="E:/Git/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539759323505" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -172,13 +212,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.sampleZkClient.getChildren">
-    <configuration name="sampleZkClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qianliu.bigdata.zookeeper.sampleZkClient" />
+  <component name="RunManager" selected="Application.dynamicClient">
+    <configuration name="dynamicClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicServer.dynamicClient" />
       <module name="zookeeperTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qianliu.bigdata.zookeeper.*" />
+          <option name="PATTERN" value="dynamicServer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,53 +226,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sampleZkClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="dynamicServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dynamicServer.dynamicServer" />
       <module name="zookeeperTest" />
+      <option name="PROGRAM_PARAMETERS" value="192.168.48.134" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qianliu.bigdata.zookeeper.*" />
+          <option name="PATTERN" value="dynamicServer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qianliu.bigdata.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.qianliu.bigdata.zookeeper.sampleZkClient" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sampleZkClient.getChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="dynamicClient.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zookeeperTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qianliu.bigdata.zookeeper.*" />
+          <option name="PATTERN" value="dynamicServer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qianliu.bigdata.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.qianliu.bigdata.zookeeper.sampleZkClient" />
-      <option name="METHOD_NAME" value="getChildren" />
+      <option name="PACKAGE_NAME" value="dynamicServer" />
+      <option name="MAIN_CLASS_NAME" value="dynamicServer.dynamicClient" />
+      <option name="METHOD_NAME" value="mainTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sampleZkClient.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="dynamicServer.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zookeeperTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qianliu.bigdata.zookeeper.*" />
+          <option name="PATTERN" value="dynamicServer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qianliu.bigdata.zookeeper" />
-      <option name="MAIN_CLASS_NAME" value="com.qianliu.bigdata.zookeeper.sampleZkClient" />
-      <option name="METHOD_NAME" value="init" />
+      <option name="PACKAGE_NAME" value="dynamicServer" />
+      <option name="MAIN_CLASS_NAME" value="dynamicServer.dynamicServer" />
+      <option name="METHOD_NAME" value="mainTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sampleZkClient.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="sampleZkClient.getData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zookeeperTest" />
       <extension name="coverage">
         <pattern>
@@ -242,26 +282,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qianliu.bigdata.zookeeper" />
       <option name="MAIN_CLASS_NAME" value="com.qianliu.bigdata.zookeeper.sampleZkClient" />
-      <option name="METHOD_NAME" value="testCreate" />
+      <option name="METHOD_NAME" value="getData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.sampleZkClient" />
-      <item itemvalue="JUnit.sampleZkClient.getChildren" />
-      <item itemvalue="JUnit.sampleZkClient.testCreate" />
-      <item itemvalue="JUnit.sampleZkClient" />
-      <item itemvalue="JUnit.sampleZkClient.init" />
+      <item itemvalue="Application.dynamicServer" />
+      <item itemvalue="Application.dynamicClient" />
+      <item itemvalue="JUnit.sampleZkClient.getData" />
+      <item itemvalue="JUnit.dynamicServer.mainTest" />
+      <item itemvalue="JUnit.dynamicClient.mainTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.sampleZkClient.getChildren" />
-        <item itemvalue="JUnit.sampleZkClient.testCreate" />
-        <item itemvalue="JUnit.sampleZkClient.init" />
-        <item itemvalue="JUnit.sampleZkClient" />
-        <item itemvalue="Application.sampleZkClient" />
+        <item itemvalue="Application.dynamicClient" />
+        <item itemvalue="Application.dynamicServer" />
+        <item itemvalue="JUnit.dynamicClient.mainTest" />
+        <item itemvalue="JUnit.dynamicServer.mainTest" />
+        <item itemvalue="JUnit.sampleZkClient.getData" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +317,10 @@
       <updated>1539518636950</updated>
       <workItem from="1539518642842" duration="5195000" />
       <workItem from="1539526816078" duration="2868000" />
-      <workItem from="1539578346336" duration="10538000" />
+      <workItem from="1539578346336" duration="12759000" />
+      <workItem from="1539690053699" duration="5281000" />
+      <workItem from="1539696434232" duration="1933000" />
+      <workItem from="1539749441310" duration="8230000" />
     </task>
     <task id="LOCAL-00001" summary="add space">
       <created>1539602204474</created>
@@ -300,48 +343,62 @@
       <option name="project" value="LOCAL" />
       <updated>1539602714317</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remove mian.java">
+      <created>1539606724042</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539606724042</updated>
+    </task>
+    <task id="LOCAL-00005" summary="remove mian.java">
+      <created>1539606734799</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539606734799</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="sampleZkClient_getChildren - 2018.10.15 at 13h 41m 54s.xml">
-      <configuration name="sampleZkClient.getChildren" configurationId="JUnit" />
+    <history-entry file="dynamicServer_mainTest - 2018.10.17 at 13h 20m 39s.xml">
+      <configuration name="dynamicServer.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sampleZkClient_testCreate - 2018.10.15 at 13h 48m 48s.xml">
-      <configuration name="sampleZkClient.testCreate" configurationId="JUnit" />
+    <history-entry file="dynamicClient_mainTest - 2018.10.17 at 13h 23m 03s.xml">
+      <configuration name="dynamicClient.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sampleZkClient_testCreate - 2018.10.15 at 13h 49m 32s.xml">
-      <configuration name="sampleZkClient.testCreate" configurationId="JUnit" />
+    <history-entry file="dynamicClient_mainTest - 2018.10.17 at 13h 24m 11s.xml">
+      <configuration name="dynamicClient.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sampleZkClient_testCreate - 2018.10.15 at 13h 51m 12s.xml">
-      <configuration name="sampleZkClient.testCreate" configurationId="JUnit" />
+    <history-entry file="dynamicClient_mainTest - 2018.10.17 at 13h 26m 33s.xml">
+      <configuration name="dynamicClient.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sampleZkClient_testCreate - 2018.10.15 at 13h 55m 35s.xml">
-      <configuration name="sampleZkClient.testCreate" configurationId="JUnit" />
+    <history-entry file="dynamicServer_mainTest - 2018.10.17 at 13h 26m 41s.xml">
+      <configuration name="dynamicServer.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sampleZkClient_testCreate - 2018.10.15 at 13h 56m 04s.xml">
-      <configuration name="sampleZkClient.testCreate" configurationId="JUnit" />
+    <history-entry file="dynamicClient_mainTest - 2018.10.17 at 13h 31m 12s.xml">
+      <configuration name="dynamicClient.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sampleZkClient_testCreate - 2018.10.15 at 14h 00m 41s.xml">
-      <configuration name="sampleZkClient.testCreate" configurationId="JUnit" />
+    <history-entry file="dynamicClient_mainTest - 2018.10.17 at 13h 38m 59s.xml">
+      <configuration name="dynamicClient.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sampleZkClient_getChildren - 2018.10.15 at 18h 23m 58s.xml">
-      <configuration name="sampleZkClient.getChildren" configurationId="JUnit" />
+    <history-entry file="dynamicClient_mainTest - 2018.10.17 at 13h 43m 22s.xml">
+      <configuration name="dynamicClient.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sampleZkClient_getChildren - 2018.10.15 at 18h 25m 35s.xml">
-      <configuration name="sampleZkClient.getChildren" configurationId="JUnit" />
+    <history-entry file="dynamicClient_mainTest - 2018.10.17 at 13h 43m 56s.xml">
+      <configuration name="dynamicClient.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="sampleZkClient_getChildren - 2018.10.15 at 18h 26m 15s.xml">
-      <configuration name="sampleZkClient.getChildren" configurationId="JUnit" />
+    <history-entry file="dynamicClient_mainTest - 2018.10.17 at 13h 44m 42s.xml">
+      <configuration name="dynamicClient.mainTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18601000" />
+    <option name="totallyTimeSpent" value="36266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1390" height="747" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20989506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21889055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,8 +407,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925038" weight="0.32305196" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925038" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39772728" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -416,20 +473,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add space" />
     <MESSAGE value="add git" />
-    <option name="LAST_COMMIT_MESSAGE" value="add git" />
+    <MESSAGE value="remove mian.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove mian.java" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <element signature="e#64#65#0" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java" />
     <entry file="file://$PROJECT_DIR$/zookeeperTest.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-548" />
@@ -446,11 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,28 +522,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.5.jar!/org/apache/zookeeper/client/StaticHostProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
-            <element signature="e#7049#7050#0" expanded="true" />
+            <element signature="e#1431#1450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.5.jar!/org/apache/zookeeper/client/ConnectStringParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#1437#1456#0" expanded="true" />
+            <element signature="e#2929#2930#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.5.jar!/org/apache/zookeeper/ZooKeeper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="128">
+          <caret line="774" selection-start-line="774" selection-end-line="774" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/qianliu/bigdata/zookeeper/sampleZkClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="434">
+          <caret line="107" column="5" lean-forward="true" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/zookeeper-3.4.5.jar!/org/apache/zookeeper/ClientCnxn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="496" selection-start-line="496" selection-end-line="496" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicServer/dynamicServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dynamicServer/dynamicClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2033#2041#0" expanded="true" />
           </folding>
         </state>
       </provider>
